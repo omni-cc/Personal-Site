@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*NAV START*/
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #2C666E;
+ 
+}
+nav > a{
+    flex-basis: 50px;
+    text-decoration: none;
+    color: #90DDF0;
+    padding: 10px;
+    text-align: center;
+}
+nav > a:hover{
+    color: #F0EDEE;
+}
+/*NAV END*/
+
+
+
+/*HOMEPAGE START*/
+.home{
+    display: flex;
+    background-color: #2C666E;
+    height: 100vh;
+    color: #F0EDEE;
+}
+.intro{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+.home-grid{
+    background-color: #175057;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 7px;
+}
+.red{
+    background-color: #2C666E;
+    grid-column: span 2;
+    grid-row: span 3;
+    border-radius: 0 0 20px 0;
+}
+.orange{
+    background-color: #2C666E;
+    grid-column: span 3;
+    border-radius: 0 0 20px 20px;
+}
+.yellow{
+    background-color: #2C666E;
+    grid-row: span 2;
+    border-radius: 0 0 20px 20px;
+}
+.green{
+    background-color: #2C666E;
+    border-radius: 0 0 20px 20px;
+}
+.blue{
+    background-color: #2C666E;
+    grid-row: span 3;
+    grid-column: span 3;
+    border-radius: 20px;
+    
+}
+.indigo{
+    background-color: #2C666E;
+    border-radius: 20px;
+    
+}
+.violet{
+    background-color: #2C666E;
+    grid-column: span 2;
+    grid-row: span 2;
+    border-radius: 20px;
+    
+}
+.maroon{
+    background-color: #2C666E;
+    grid-column: span 2;
+    grid-row: span 3;
+    border-radius: 0 20px 20px 0;
+}
+.magenta{
+    background-color: #F0EDEE;
+    grid-column: span 2;
+    grid-row: span 3;
+    border-radius: 20px 20px 0 0
+}
+.pink{
+    background-color: #F0EDEE;
+    grid-row: span 2;
+    border-radius: 20px;
+}
+.peach{
+    background-color: #F0EDEE;
+    grid-row: span 2;
+    grid-column: span 2;
+    border-radius: 20px;
+}
+.lemon{
+    background-color: #2C666E;
+    border-radius: 0 20px 0 0;
+}
+.purple{
+    background-color: #F0EDEE;
+    border-radius: 20px 20px 0 0;
+}
+.grey{
+    background-color: #F0EDEE;
+    grid-column: span 3;
+    border-radius: 20px 0 0 0
+}
+.intro > h2{
+    margin: 0;
+}
+
+/*HOMEPAGE END*/
+
+
+
+
+.about{
+    background-color: #F0EDEE;
+    height: 100v;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;   
+    gap: 1rem;
+    padding: 50px;
+}
+li{
+    list-style: none;
+}
+.about > div{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    flex: 1;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about > div > h2{
+    font-family: cursive;
+}
+.project-heading{
+    background-color: #F0EDEE;
+    text-align: center;
+    padding: 50px;
+}
+.project-heading > h2{
+    margin: 0;
+}
+.projects{
+    background-color: #F0EDEE;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+div.polaroid{
+    border-radius: 10px;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.polaroid:hover{
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.contact{
+    background-color: #175057;
+    color: #F0EDEE;
+    text-align: center;
+    padding: 50px;
+
+}
+.contact > h2{
+    margin-top: 0;
+}
+.contact > a{
+    margin: 50px;
+    text-decoration: none;
+    color: #90DDF0;
+}
+.contact > a:hover{
+    color: #F0EDEE;
+}
+button{
+    font-family: cursive;
+    background-color: #90DDF0;
+    color: #175057;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+button:hover{
+    background-color: #F0EDEE;
+
+}
+footer{
+    background-color: #175057;
+    color: #F0EDEE;
+    text-align: center;
+    padding: 20px;
+}
+footer > p{
+    margin: 0;
+}
+@media (max-width:1250px) {
+body{
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    width: 100%;
+    justify-content: center;
+}
+.home-grid{
+    display: none;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+div.polaroid{
+    width: 50%;
+}
+
+    
+}
+/*
+#F0EDEE
+#90DDF0
+#2C666E
+*/
